@@ -13,6 +13,33 @@
     position: relative;
 }
 
+.caja3{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: relative;
+}
+
+.uno{
+    z-index:3;
+}
+
+.dos{
+    background-color: darkcyan;
+    left: 50px;
+    bottom: 90px;
+    z-index:2;
+}
+
+.tres{
+    background-color: darkorange;
+    left: 50px;
+    top: -180px;
+    z-index:1;
+}
+
+
+
 .contenedor1{
     display: flex;
     justify-content: space-evenly;
