@@ -1,3 +1,36 @@
+.caja{
+    height: 100px;
+    width: 100px;
+    border: 5px solid red;
+    background-color: blue;
+}
+
+.caja2{
+    height: 100px;
+    width: 100px;
+    border: 5px solid red;
+    background-color: blue;
+    position: relative;
+}
+
+.contenedor1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: center;
+}
+
+.segunda{
+    left:100px;
+}
+
+.tercera{
+    left:200px;
+}
+
 .principal {
     width: 300px;
     height: 300px;
